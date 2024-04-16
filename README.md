@@ -3,7 +3,7 @@
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=22&pause=1000&color=F7C621&vCenter=true&multiline=true&random=false&width=438&height=52&lines=Welcome+We+are+PI's+Project)](https://git.io/typing-svg)
 </div>
 
-<div align="right">
+<div align="center">
   
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&pause=1000&color=085EF7&vCenter=true&random=false&width=438&height=70&lines=Mood+Holic!!)](https://git.io/typing-svg)
 </div>
@@ -14,35 +14,39 @@
 
 </div>
 
-</br></br>
+</br>
 
-<h1 align="center">Members</h1>
+<div align="center">
 
-  [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** | [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** | [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** | [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** | [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
-
-
-</br></br></br></br></br></br></br></br>
-
-<h1>3.141592조 (PIE)</h1>
-
-<div align="right">
-  
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThisDotE%2FInnerJoinUs.git&count_bg=%232884FF&title_bg=%23FFA900&icon=googleclassroom.svg&icon_color=%23E7E7E7&title=Today&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
-> 
+</br></br></br>
 
+<h1>🥧 3.141592조 (PIE)</h1>
 
-<h3 align="center">
+> **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 개발에 박차를 가하며 에러를 이겨낼 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해볼 수 있었습니다.
+
+</br>
+
+<h1 align="left">👥 Members</h1>
+<div align="center">
 	
-Mood Holic 배포 주소
-Mood Holic Github 주소
-멤버소개
+  [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
+</div>
+
+</br></br>
 
 ## 1. Mood Holic 소개
 
-### 기획 배경
-### 해결 컨셉
+### 👀 기획 배경
+
+### 💡 해결 컨셉
+
+- **일기 작성**: 사용자는 하루마다의 감정을 정리하면서 겪었던 어려움이나 배운 점 및 성장한 경험 등을 자유롭게 정리할 수 있습니다.
+- **GPT를 통한 결과 도출**: GPT 프롬프트를 통해 일기를 전달하여 회원의 기분 점수, 추천 컨텐츠(음식,음악,영화)를 전달받아 회원에게 해당 결과를 출력합니다.
+- **통계 분석**: 저장된 데이터들을 기반으로 한 회원에 대한 기분, 음식, 음악, 영화 취향 분석 등을 통계로 시각화 할 수 있습니다. (ex. 그래프)
+
 ### 기대 효과
 ### 주요페이지 소개
 
