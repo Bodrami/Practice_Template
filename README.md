@@ -7,9 +7,11 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThisDotE%2FInnerJoinUs.git&count_bg=%232884FF&title_bg=%23FFA900&icon=googleclassroom.svg&icon_color=%23E7E7E7&title=Today&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
+<span style="color:yello">
 <h1 align="right">🥧 3.141592조 (PIE)</h1>
+</span>
 
-> **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 개발에 박차를 가하며 에러를 이겨낼 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해볼 수 있었습니다.
+> **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 어떤 에러에도 굴복하지 않고 이겨내 개발할 수 있는 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 단기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해보면서 그동안 배운 내용을 직접 사용해보면서 복습하는 기회도 가져보았습니다.
 
 </br>
 
@@ -66,7 +68,7 @@
 
 5. 통계 분석을 통한 인사이트 도출: 저장된 데이터를 기반으로 한 통계 분석은 사용자들의 감정 변화, 취향 변화, 성장 과정 등을 이해하는 데 도움을 줄 수 있습니다. 이를 통해 트렌드 파악이나 사용자들에게 더 나은 서비스를 제공할 수 있는 인사이트를 도출할 수 있습니다.
 
-> 총체적으로, 이러한 시스템은 사용자들의 정서적 건강과 성장을 지원하고, 개인화된 서비스를 제공하여 보다 만족스러운 경험을 제공할 수 있습니다.
+**=> 총체적으로, 이러한 시스템은 사용자들의 정서적 건강과 성장을 지원하고, 개인화된 서비스를 제공하여 보다 만족스러운 경험을 제공할 수 있습니다.**
 </br>
 
 ### 📍 주요페이지 소개
@@ -77,7 +79,7 @@
 
 # 2. 추진 계획
 
-**Table: 추진체계**
+### 🗓️ Table: 추진체계
 
 | 구분 | 조직 | 주요 역할 |
 | --- | --- | --- |
@@ -88,13 +90,24 @@
 
 - 작업 수행공간: 서울 동작구 보라매로 87 SFC빌딩 3F 1강의실, 원격 소통(Discord 및 slack)
 
-- 프로젝트 구현 도구
-  <img src ="https://img.shields.io/badge/MariaDB-&logo=MariaDB"/><img src="https://img.shields.io/badge/10.3.38-515151?style=for-the-badge" width="50" height="20"/> <img src="https://img.shields.io/badge/Java-&logo=openjdk"><img src="https://img.shields.io/badge/17.0.3-515151?style=for-the-badge" width="40" height="20"/>
+### 📊 Frame Work
+
+
 
 <br/>
 
 # 3. 일정관리 (Sprint Kanban)
-
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
+```
 </br>
 
 # 4. 디렉토리 구조 
@@ -490,7 +503,7 @@ VALUES
 # 6. 요구사항
 
 # 7. Wire Frame
-<summary>DML 구문</summary>
+<summary>Mood Holic's Wire Frame</summary>
 
 ![wireframe](https://github.com/Bodrami/Practice_Template/assets/149561287/663043e3-76de-451b-9e0a-443f577d39c4)
 
@@ -501,4 +514,13 @@ VALUES
 # 9. Test Case
 
 # 10. Acatsuki's 회고
+
+|:--------:|:------:|
+| **이름**   | **회고** |
+|:--------:|:------:|
+| **김재현**  |        |
+| **박경덕**  |        |
+| **신동호**  |        |
+| **이드보라** |        |
+| **이현우**  |        |
 
