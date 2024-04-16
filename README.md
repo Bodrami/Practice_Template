@@ -47,31 +47,15 @@
 
 ### ⚙️ Back-End
 
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-thebadge&logo=Spring Boot&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-thebadge&logo=Spring Security&logoColor=white" />
-
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" />
-
-[Swagger]
-[mariaDB]
-[redis]
-
-[JWT]
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-thebadge&logo=Spring Boot&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-thebadge&logo=Spring Security&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-thebadge&logo=Swagger&logoColor=white" />  &nbsp;&nbsp; <img src="https://img.shields.io/badge/MariaDB-003545?style=for-thebadge&logo=MariaDB&logoColor=white" />  &nbsp;&nbsp; <img src="https://img.shields.io/badge/Redis-DC382D?style=for-thebadge&logo=Redis&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/JWT-FBBA00?style=for-thebadge&logo=JWT&logoColor=white" />
 
 ### ⚙️ Production
 
-[OpenAI API]
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-thebadge&logo=OpenAI&logoColor=white" />
 
 ### ⚙️ CI/CD
 
-[Docker]
-[kubernetes]
-[jenkins]
-
-### ⚙️ Frame Work
-
-
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-thebadge&logo=Docker&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-thebadge&logo=kubernetes&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-thebadge&logo=Jenkins&logoColor=white" />
 
 <div align="center">
   
