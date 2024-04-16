@@ -7,21 +7,27 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThisDotE%2FInnerJoinUs.git&count_bg=%232884FF&title_bg=%23FFA900&icon=googleclassroom.svg&icon_color=%23E7E7E7&title=Today&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
-<span style="color:yello">
-<h1 align="right">🥧 3.141592조 (PIE)</h1>
-</span>
+<h1 align="right">🌈 Introduce Our Team</h1>
+
+<div align="right">
+	
+## 🥧 3.141592조 (PIE)
 
 > **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 어떤 에러에도 굴복하지 않고 이겨내 개발할 수 있는 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 단기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해보면서 그동안 배운 내용을 직접 사용해보면서 복습하는 기회도 가져보았습니다.
-
-</br>
+</div></br>
 
 <h1 align="right">👥 Contact & Group</h1>
 
-### [discard]
+<div align="right">
 
-### [slack]
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-thebadge&logo=Discord&logoColor=white" /></br>
 
-### [github]
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-thebadge&logo=Slack&logoColor=white" /></br>
+
+<img src="https://img.shields.io/badge/Github-181717?style=for-thebadge&logo=Github&logoColor=white" />
+</div>
+
+</br>
 
 <h1 align="right">👥 Members</h1>
 
@@ -37,19 +43,20 @@
 
 ### ⚙️ Front-End
 
-[vue.js]
-[React Native]
-[html5]
-[css3]
-
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-thebadge&logo=Vue.js&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/React Native-61DAFB?style=for-thebadge&logo=React Native&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-thebadge&logo=HTML5&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" />
 
 ### ⚙️ Back-End
 
-[Spring Boot]
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-thebadge&logo=Spring Boot&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-thebadge&logo=Spring Security&logoColor=white" />
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" /><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" />
+
 [Swagger]
 [mariaDB]
 [redis]
-[Spring Security]
+
 [JWT]
 
 ### ⚙️ Production
