@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&width=1000&section=header&text=Mood&nbsp;Holic&fontSize=80" />
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&width=1000&section=header&text=Mood&nbsp;Holic&fontSize=80" />
+</div>
 
 <div align="right">
 
@@ -7,7 +9,7 @@
 
 <h2>🥧 3.141592조 (PIE)</h2>
 
-> **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 개발에 박차를 가하며 에러를 이겨낼 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해볼 수 있었습니다.
+> **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 개발에 박차를 가하며 에러를 이겨낼 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해볼 수 있었습니다.
 
 </br>
 
@@ -175,18 +177,312 @@
 # 5. DB Modeling (ERD, DDD, DDL, DML)
 
 ### 🗂️ ERD
+![ERD](https://github.com/Bodrami/Practice_Template/assets/149561287/6484caa0-d971-4916-a3ce-e25ac9415492)
 
 ### 🗂️ DDD
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/1058f95c-04fc-4181-ad25-a2f4adb7a7e0)
 
 ### 🗂️ DDL
+<details>
+<summary>DDL 구문</summary>
+<div markdown="1">
+	
+```sql
+DROP DATABASE IF EXISTS moodholic;
+
+CREATE DATABASE IF NOT EXISTS moodholic default CHARACTER SET UTF8;
+
+USE moodholic;
+
+DROP TABLE diary CASCADE;
+DROP TABLE diary_emotion CASCADE;
+DROP TABLE diary_food CASCADE;
+DROP TABLE diary_food_like CASCADE;
+DROP TABLE diary_movie CASCADE;
+DROP TABLE diary_movie_like CASCADE;
+DROP TABLE diary_music CASCADE;
+DROP TABLE diary_music_like CASCADE;
+DROP TABLE emotion CASCADE;
+DROP TABLE food CASCADE;
+DROP TABLE member CASCADE;
+DROP TABLE movie CASCADE;
+DROP TABLE music CASCADE;
+
+CREATE TABLE `member` (
+    `member_id` BIGINT AUTO_INCREMENT NOT NULL,
+    `nickname` VARCHAR(50) NULL,
+    `provider` VARCHAR(30) NULL,
+    `email` VARCHAR(50) NULL,
+    PRIMARY KEY (`member_id`)
+);
+
+CREATE TABLE `diary` (
+    `diary_id` INT AUTO_INCREMENT NOT NULL,
+    `date` DATE NULL,
+    `content` TEXT NULL,
+    `status` BOOLEAN NULL DEFAULT FALSE,
+    `Img_path` TEXT NULL,
+    `member_id` BIGINT NOT NULL,
+    `summary` VARCHAR(255) NULL,
+    PRIMARY KEY (`diary_id`)
+);
+
+CREATE TABLE `emotion` (
+    `emotion_id` INT AUTO_INCREMENT NOT NULL,
+    `emotion_score` INT NULL,
+    PRIMARY KEY (`emotion_id`)
+);
+
+CREATE TABLE `music` (
+    `music_id` INT AUTO_INCREMENT NOT NULL,
+    `music_name` VARCHAR(255) NULL,
+    `singer` VARCHAR(255) NULL,
+    `music_genre` VARCHAR(255) NULL,
+    PRIMARY KEY (`music_id`)
+);
+
+CREATE TABLE `food` (
+    `food_id` INT AUTO_INCREMENT NOT NULL,
+    `food_name` VARCHAR(255) NULL,
+    `food_category` ENUM('한식','중식','양식','일식','아시안') NULL,
+    `food_spicy` INT NULL,
+    PRIMARY KEY (`food_id`)
+);
+
+CREATE TABLE `movie` (
+    `movie_id` INT AUTO_INCREMENT NOT NULL,
+    `movie_name` VARCHAR(255) NULL,
+    `movie_genre` VARCHAR(255) NULL,
+    PRIMARY KEY (`movie_id`)
+);
+
+CREATE TABLE `diary_music` (
+    `diary_music_id` INT AUTO_INCREMENT NOT NULL,
+    `diary_id` INT NOT NULL,
+    `music_id` INT NOT NULL,
+    `music_like` BOOLEAN NULL,
+    PRIMARY KEY (`diary_music_id`)
+);
+
+CREATE TABLE `diary_food` (
+    `diary_food_id` INT AUTO_INCREMENT NOT NULL,
+    `diary_id` INT NOT NULL,
+    `food_id` INT NOT NULL,
+    `food_like` BOOLEAN NULL,
+    PRIMARY KEY (`diary_food_id`)
+);
+
+CREATE TABLE `diary_movie` (
+    `diary_movie_id` INT AUTO_INCREMENT NOT NULL,
+    `movie_id` INT NOT NULL,
+    `diary_id` INT NOT NULL,
+    `movie_like` BOOLEAN NULL,
+    PRIMARY KEY (`diary_movie_id`)
+);
+
+CREATE TABLE `diary_emotion` (
+    `diary_emotion_id` INT AUTO_INCREMENT NOT NULL,
+    `diary_id` INT NOT NULL,
+    `emotion_id` INT NOT NULL,
+    PRIMARY KEY (`diary_emotion_id`)
+);
+
+CREATE TABLE `comment` (
+	 `comment_id` INT AUTO_INCREMENT NOT NULL,
+	 `diary_id` INT NOT NULL,
+	 `comment_content` VARCHAR(255) NOT NULL,
+	 PRIMARY KEY (`comment_id`)
+);	 
+
+ALTER TABLE `diary`
+ADD CONSTRAINT `fk_member_id` FOREIGN KEY (`member_id`)
+REFERENCES `member`(`member_id`);
+
+ALTER TABLE `diary_music`
+ADD CONSTRAINT `fk_diary_id1` FOREIGN KEY (`diary_id`)
+REFERENCES `diary`(`diary_id`);
+
+ALTER TABLE `diary_music`
+ADD CONSTRAINT `fk_music_id` FOREIGN KEY (`music_id`)
+REFERENCES `music`(`music_id`);
+
+ALTER TABLE `diary_food`
+ADD CONSTRAINT `fk_diary_id2` FOREIGN KEY (`diary_id`)
+REFERENCES `diary`(`diary_id`);
+
+ALTER TABLE `diary_food`
+ADD CONSTRAINT `fk_food_id` FOREIGN KEY (`food_id`)
+REFERENCES `food`(`food_id`);
+
+ALTER TABLE `diary_movie`
+ADD CONSTRAINT `fk_diary_id3` FOREIGN KEY (`diary_id`)
+REFERENCES `diary`(`diary_id`);
+
+ALTER TABLE `diary_movie`
+ADD CONSTRAINT `fk_movie_id` FOREIGN KEY (`movie_id`)
+REFERENCES `movie`(`movie_id`);
+
+ALTER TABLE `diary_emotion`
+ADD CONSTRAINT `fk_diary_id4` FOREIGN KEY (`diary_id`)
+REFERENCES `diary`(`diary_id`);
+
+ALTER TABLE `diary_emotion`
+ADD CONSTRAINT `fk_emotion_id` FOREIGN KEY (`emotion_id`)
+REFERENCES `emotion`(`emotion_id`);
+
+ALTER TABLE `comment`
+ADD CONSTRAINT `fk_diary_id5` FOREIGN KEY (`diary_id`)
+REFERENCES `diary`(`diary_id`);
+```
+</div>
+</details>
 
 ### 🗂️ DML
+<details>
+<summary>DML 구문</summary>
+<div markdown="1">
+	
+```sql
+INSERT
+INTO member
+(email,nickname, provider)
+VALUES
+       ('park123@naver.com','츄르도둑', 'google')
+     , ('yun123@naver.com',  '우주최강미남', 'naver')
+     , ('mfk5gd@daum.net',  '리카솔리','google')
+     , ('cho123@daum.net', '쥬라기월드','google')
+     , ('kim123@kakao.com',  '닥쳐말포이', 'naver')
+     , ('f414mce3@yahoo.com', '가문비하늘소', 'google')
+     , ('lee123@gmail.com', '마틸다', 'naver')
+     , ('baek123@yahoo.com','운동갈꺼야', 'google')
+     , ('seo@naver.com', '게임조아','naver')
+     , ('v1hdfn@naver.com', '하태서리', 'google')
+     , ('i8drit@naver.com',  '귤냠냠', 'google')
+     , ('lmjava@gmail.com',  '물복숭아', 'google')
+     , ('fdxrt2@yahoo.com', '지하천척', 'naver')
+     , ('helloItsUnivers@naver.com',  'littleUnivers','naver')
+     , ('buy1005@naver.com',  'handselim', 'google')
+     , ('djunsg@gmail.com',  '준동송', 'naver')
+     , ('Din1@yahoo.com', 'god대영', 'google')
+     , ('al8@daum.net',  '이세카이', 'google')
+     , ('leieion@naver.com',  '바늘사초', 'naver')
+     , ('beoele@gmail.com',  '보우타리', 'naver')
+     , ('je58392@yahoo.com', '벤조카인', 'naver')
+     , ('829hhge@daum.net',  '어파인군', 'google')
+     , ('oiomnnt8@naver.com',  '다분안부', 'google')
+     , ('1m0s11@gmail.com',  '파라도스', 'google')
+     , ('krwink@yahoo.com',  '파크스법', 'google')
+     , ('te6394@daum.net', '마이카나이트', 'google')
+     , ('rj83n9n@naver.com',  '마른새우볶음', 'naver')
+     , ('ciqfnl348@gmail.com',  '메소포타미아', 'naver')
+     , ('yun2489b@daum.net',  'DragonVicroty', 'google')
+     , ('coein231@gmail.com',  '키러소루두', 'naver')
+     , ('lehyw@nate.com', 'rpwkr', 'naver');
+     
+     
+INSERT
+INTO diary
+(`date`,`content`,`member_id`, `summary`)
+VALUES
+		 (
+		 '2024-03-25'
+		 ,'오늘은 오랜만에 친구와 이디야카페에서 만나 콜드브루를 마시며 수다를 떨었다. 
+		 전여친이야기와 롤이야기를 했는데 역시 내 베프라 그런지 대화도 즐거워서 기분이 매우 좋았다.
+		 심지어 이날 조개구이도 먹어서 진짜 찐으로 광대가 나올만큼 웃었던것 같다.
+		 내일도 이정도로 기분좋은 일만 가득했으면 좋겠다.',
+		 8,
+		 '기분 좋았다'
+		 ),
+		 (
+		 '2024-03-26'
+		 ,'기분이 좋기는 개뿔 시작부터 꼬였다.
+		 회사에서 상사가 갑자기 중요 프로젝트 마감일이 다가오고 있으니 오늘 야근을 하라는 말을 하는게 아니겠는가
+		 오늘 집가서 야구보면서 시원한 맥주마시면서 쉴려고 했는데 기분이 너무 안좋아졌다. 
+		 지금 이시간에 회사에서 일기나 쓰고 있다니 진짜 화난다',
+		 8,
+		 '화가 났다'
+		 ),
+		 (
+		 '2024-03-27'
+		 ,'오랜만에 도서관에 가서 책을 읽었다. 
+		 조용하고 집중하기 좋은 환경에서 시간가는 줄 몰랐다.
+		 별다른 특별한 일 없이  편안하고 조용한 하루였다.
+		 가끔은 이런 평온한 하루도 괜찮은 것 같다. ',
+		 8,
+		 '나름 괜찮은 하루'
+		 ),
+		 (
+		 '2024-03-28'
+		 ,'오늘 아주 행복한 꿈을 꿨다. 바로 억만장자가 되는 꿈!! 근데 깼더니 내 눈앞에 보이는건 
+		 어제 먹고 안치운 막국수 그릇과 이불에 떨어진 족발 한조각이였다. 아침부터 아주 엿같은 하루다.
+		 오늘 내 눈에 누구 걸리기만 해봐라 진짜 분노조절장애가 뭔지 보여주지.',
+		 8,
+		 '화가 많이 났다'
+		 ),
+		 (
+		 '2024-03-29'
+		 ,'새로운 취미로 그림 그리기를 시작했다. 잘 그리지는 못하지만, 창작의 과정 자체가 즐거웠다.
+		  새로운 것을 배우는 설렘이 있었다. 어제는 좀 컨디션이 안좋았지만 그림그리기에 내 새로운 재능을 찾은것 같
+		  같아서 기분이 몹시 매우 좋다. 내일도 유튜브 보면서 그려봐야지.',
+		 8,
+		 '신비로운 기분이 든다'
+		 ),
+		 (
+		 '2020-02-02' ,
+		 '오늘은 시험날이었는데 시험을 너무 못봤다. 내 목표 점수는 80점이었는데
+		  65점밖에 못맞아서 기분이 우울했다. 앞으로 더 열심히해야할 것 같다고 생각하는데
+		  용기가 안난다. 그래도 열심히 해야겠다!',
+		 1,
+		 '우울하다..'
+		 ),
+		 (
+		 '2021-02-21' ,
+		 '오늘은 부모님의 결혼기념일이이셔서 꽃다발을 사드렸는데 부모님께서 굉장히 좋아하셨다.
+		  누군가에게 선물을 하는 행위에 있어서 상대방이 기분 좋아한다면 선물을 주는 사람 
+		  입장도 기분이 좋아진다는 것을 처음 알았다. 누군가에게 선물을 한다는 것은 나름
+		  기분 좋은 일이었구나~',
+		 2,
+		 '뿌듯한 기분~'
+		 ),
+		 (
+		 '2022-02-22' ,
+		 '오늘 나에게 있어서 매우 중요한 날이었다. 오늘은 나의 대학 졸업식날이었다.
+		  하지만 아침부터 머리 드라이를 제대로 하지 못했고 학교에 가는 길에 새똥에 맞아
+		  찜질방에 들려 씻어야했다..그렇기에 졸업식도 최악이었다. 내 인생에 단 한번 있는
+		  날인데 이렇게 마무리하니 기분이 진짜 나빴다.' ,
+		 3,
+		 '재수없는 날'
+		 ),
+		 (
+		 '2023-02-23' ,
+		 '3년동안 주 1회씩 복권을 구매하던 나.. 항상 낙첨만 되던 나.. 하지만 드디어 복권
+		  3등에 당첨되었다!! 비록 1등 당첨금액에 비해 초라한 당첨금액이지만 이정도가 어디인가..
+		  나는 오늘 소고기를 먹을 것이다!!' ,
+		 4,
+		 '성공한 느낌!'
+		 ),
+		 (
+		 '2024-02-24' ,
+		 '오늘 하교를 하며 한 아파트 옆을 지나가고 있었다. 그때 들렸던 소리.."퍽!!"
+		  내 앞에 작은 우유곽이 터졌고 그로 인해 내 몸은 흰 우유에 범벅이 되어있었다.
+		  그 직후 들리는 소리 "깔깔깔~" 아파트 위에서 초등학생들이 나에게 우유를 던진 것이었다.
+		  나는 소리를 지르며 욕을 했다. 하지만 그 학생들의 부모들이 찾아와 적반하장으로
+		  소리지르지 말라며 나에게 되려 화를 내었다. 차라리 저출산 시대가 오래갔으면 좋겠다고
+		  생각한 하루였다.' ,
+		 5,
+		 '기분 잡치네 진짜'
+		 )
+		 ;
+```
+</div>
+</datails>
 
 # 6. 요구사항
 
 # 7. Wire Frame
+<summary>DML 구문</summary>
 
+![wireframe](https://github.com/Bodrami/Practice_Template/assets/149561287/663043e3-76de-451b-9e0a-443f577d39c4)
 
 # 7. Mood Holic Architecture
 
