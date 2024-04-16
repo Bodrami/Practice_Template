@@ -73,7 +73,7 @@
 
 # 2. 추진 계획
 
-**Table: 추진체계**
+**Table: 추진체계**
 
 | 구분 | 조직 | 주요 역할 |
 | --- | --- | --- |
@@ -92,9 +92,13 @@
 # 3. 일정관리 (Sprint Kanban)
 
 </br>
+
 # 4. 디렉토리 구조 
-<detail>
+
+<details>
 <summary><h2>Mood.Holic.APP</h2></summary>
+<div markdown="1">
+	
 ```
 📂 public
 ├─ 📂 Favicon.ico
@@ -115,16 +119,25 @@
 └─ 📂 router
    └─ 📄 index.js
 ```
-</detail>
-### Mood.Holic.BE
+</div>
+</details>
+
+<details>
+<summary><h2>Mood.Holic.BE</h2></summary>
+<div markdown="1">
+	
 ```
 📂 Akatsuki
 └─ 📂 MoodHolicBE
 └─ 📂 MoodHolicFE
 ```
-</br>
+</div>
+</details>
 
-### Mood.Holic.FE
+<details>
+<summary><h2>Mood.Holic.FE</h2></summary>
+<div markdown="1">
+
 ```
 📂 .github
 ├─ 📂 Template
@@ -155,6 +168,8 @@
 ├─ 📄 README.md
 ├─ 📄 vite.config.js 
 ```
+</div>
+</details>
 </br>
 
 # 5. DB Modeling (ERD, DDD, DDL, DML)
@@ -169,8 +184,16 @@
 ### DML
 
 # 6. 요구사항
+
+# 7. Wire Frame
+
+![Group 1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c78cddc1-c25c-4915-ab0f-e94172746e8b/d08827d3-5add-46ff-9b30-16c3f19f3701/Group_1.png)
+
 # 7. Mood Holic Architecture
+
 # 8. API 명세서
+
 # 9. Test Case
+
 # 10. Acatsuki's 회고
 
