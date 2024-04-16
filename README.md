@@ -38,9 +38,10 @@
 </h4>
 
 </br>
-
 <h1 align="right">🛠️ Technology Stack</h1>
 
+<div align="right">
+	
 ### ⚙️ Front-End
 
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-thebadge&logo=Vue.js&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/React Native-61DAFB?style=for-thebadge&logo=React Native&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-thebadge&logo=HTML5&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-thebadge&logo=CSS3&logoColor=white" />
@@ -56,6 +57,8 @@
 ### ⚙️ CI/CD
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-thebadge&logo=Docker&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-thebadge&logo=kubernetes&logoColor=white" /> &nbsp;&nbsp; <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-thebadge&logo=Jenkins&logoColor=white" />
+
+</div></br></br></br>
 
 <div align="center">
   
