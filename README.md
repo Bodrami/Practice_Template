@@ -7,16 +7,18 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThisDotE%2FInnerJoinUs.git&count_bg=%232884FF&title_bg=%23FFA900&icon=googleclassroom.svg&icon_color=%23E7E7E7&title=Today&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
-<h2>🥧 3.141592조 (PIE)</h2>
+<h1 align="right">🥧 3.141592조 (PIE)</h1>
 
 > **가치를 같이할 때 더 좋은 “가.치”가 된다.** 라는 슬로건을 가지고 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 팀입니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 개발에 박차를 가하며 에러를 이겨낼 힘을 가지고 있습니다. 이번 프로젝트에서는 2주의 기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해볼 수 있었습니다.
 
 </br>
 
-<h2 align="left">👥 Members</h2>
-<div align="center">
+<h1 align="right">👥 Members</h1>
+
+<div align="right">
 	
-  [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
+[<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
+
 </div>
 
 </br></br>
@@ -176,11 +178,19 @@
 
 # 5. DB Modeling (ERD, DDD, DDL, DML)
 
-### 🗂️ ERD
+<div align="center">
+<h2>🗂️ ERD</h2>
+	
 ![ERD](https://github.com/Bodrami/Practice_Template/assets/149561287/6484caa0-d971-4916-a3ce-e25ac9415492)
+</div>
+</br>
 
-### 🗂️ DDD
+<div align="center">
+<h2>🗂️ DDD</h2>
+
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/1058f95c-04fc-4181-ad25-a2f4adb7a7e0)
+</div>
+</br>
 
 ### 🗂️ DDL
 <details>
