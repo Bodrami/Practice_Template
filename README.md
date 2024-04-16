@@ -174,20 +174,19 @@
 
 # 5. DB Modeling (ERD, DDD, DDL, DML)
 
-### ERD
+### 🗂️ ERD
 
-### DDD
+### 🗂️ DDD
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/1058f95c-04fc-4181-ad25-a2f4adb7a7e0)
 
-### DDL
+### 🗂️ DDL
 
-### DML
+### 🗂️ DML
 
 # 6. 요구사항
 
 # 7. Wire Frame
 
-![Group 1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c78cddc1-c25c-4915-ab0f-e94172746e8b/d08827d3-5add-46ff-9b30-16c3f19f3701/Group_1.png)
 
 # 7. Mood Holic Architecture
 
