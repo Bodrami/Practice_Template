@@ -15,15 +15,56 @@
 
 </br>
 
+<h1 align="right">👥 Contact & Group</h1>
+
+### [discard]
+
+### [slack]
+
+### [github]
+
 <h1 align="right">👥 Members</h1>
 
-<div align="right">
+<h4 align="right">
 	
 [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
 
-</div>
+</h4>
 
-</br></br>
+</br>
+
+<h1 align="right">🛠️ Technology Stack</h1>
+
+### ⚙️ Front-End
+
+[vue.js]
+[React Native]
+[html5]
+[css3]
+
+
+### ⚙️ Back-End
+
+[Spring Boot]
+[Swagger]
+[mariaDB]
+[redis]
+[Spring Security]
+[JWT]
+
+### ⚙️ Production
+
+[OpenAI API]
+
+### ⚙️ CI/CD
+
+[Docker]
+[kubernetes]
+[jenkins]
+
+### ⚙️ Frame Work
+
+
 
 <div align="center">
   
@@ -69,12 +110,14 @@
 5. 통계 분석을 통한 인사이트 도출: 저장된 데이터를 기반으로 한 통계 분석은 사용자들의 감정 변화, 취향 변화, 성장 과정 등을 이해하는 데 도움을 줄 수 있습니다. 이를 통해 트렌드 파악이나 사용자들에게 더 나은 서비스를 제공할 수 있는 인사이트를 도출할 수 있습니다.
 
 **=> 총체적으로, 이러한 시스템은 사용자들의 정서적 건강과 성장을 지원하고, 개인화된 서비스를 제공하여 보다 만족스러운 경험을 제공할 수 있습니다.**
+
 </br>
 
 ### 📍 주요페이지 소개
 - **일기 작성**: 사용자는 하루마다의 감정을 정리하면서 겪었던 어려움이나 배운 점 및 성장한 경험 등을 자유롭게 정리할 수 있습니다.
 - **GPT를 통한 결과 도출**: GPT 프롬프트를 통해 일기를 전달하여 회원의 기분 점수, 추천 컨텐츠(음식,음악,영화)를 전달받아 회원에게 해당 결과를 출력합니다.
 - **통계 분석**: 저장된 데이터들을 기반으로 한 회원에 대한 기분, 음식, 음악, 영화 취향 분석 등을 통계로 시각화 할 수 있습니다. (ex. 그래프)
+- 
 </br>
 
 # 2. 추진 계획
