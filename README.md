@@ -5,16 +5,16 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FThisDotE%2FInnerJoinUs.git&count_bg=%232884FF&title_bg=%23FFA900&icon=googleclassroom.svg&icon_color=%23E7E7E7&title=Today&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
-<h1 align="right">🌈 Introduce Our Team</h1>
+<h1 align="center">🌈 Introduce Our Team</h1>
 
-<div align="left">
+<div align="center">
 	
 > **팀명은 3.141592조 (PIE)** 로 무한대로(PI) 개발을 즐기며 무한대로 성장하고 있는 개발팀원들이 모여 '가치는 같이할 때 더 좋은 “가.치”가 된다. 라는 슬로건을 가지고 있습니다. 이번 프로젝트에서는 여러 가지 주제 중 회의를 통해 선정하고 각자가 맡은 부분을 책임감을 가지고 개발을 구현하는 협업 할 수 있는 팀워크를 보여주고 있습니다. 하나의 에러도 혼자가 아니라 팀원들과 머리를 맏대고 서로 믿고 의지하며 적극적인 의사소통을 통해 어떤 에러에도 굴복하지 않고 이겨내 개발할 수 있는 힘을 가지고 있으며 이번 프로젝트에서는 2주의 단기간동안 기획부터 프론트, 백, 서버 연동 등 개발의 전반적인 과정을 경험해보면서 그동안 배운 내용을 직접 사용해보면서 복습하는 기회도 가져보았습니다.
 </div></br>
 
-<h1 align="right">👥 Contact & Group</h1>
+<h1 align="center">👥 Contact & Group</h1>
 
-<div align="right">
+<div align="center">
 
 <img src="https://img.shields.io/badge/Discord-5865F2?style=for-thebadge&logo=Discord&logoColor=white" /></br>
 
@@ -25,18 +25,18 @@
 
 </br>
 
-<h1 align="right">👥 Members</h1>
+<h1 align="center">👥 Members</h1>
 
-<h4 align="right">
+<h4 align="center">
 	
 [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/jaehyeon-SMU) **김재현** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Virtue14) **박경덕** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/letsplaycoding) **신동호** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-305AFF?logo=Github">](https://github.com/Bodrami) **이드보라** &nbsp;&nbsp; [<img src="https://img.shields.io/badge/Github-Link-FFD930?logo=Github">](https://github.com/daersh) **이현우**
 
 </h4>
 
 </br>
-<h1 align="right">🛠️ Technology Stack</h1>
+<h1 align="center">🛠️ Technology Stack</h1>
 
-<div align="right">
+<div align="center">
 	
 ### ⚙️ Front-End
 
@@ -130,6 +130,8 @@
 
 ### ⏰ Sprint Kanban 1주차
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/11c62c6d-9e3d-4671-91a7-f3dc4040cf54)
+
+</br>
 
 ### ⏰ Sprint Kanban 2주차
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/ae2f3747-8762-4fbc-a350-996fc0f4df45)
@@ -535,28 +537,74 @@ VALUES
 
 ![wireframe](https://github.com/Bodrami/Practice_Template/assets/149561287/663043e3-76de-451b-9e0a-443f577d39c4)
 
-# 7. Mood Holic's System Architecture
+# 8. Mood Holic's System Architecture
 
 <img align="center" ![스크린샷 2024-04-17 오후 1 13 24](https://github.com/Bodrami/Practice_Template/assets/149561287/22b779e3-cea5-4346-b7e4-27c1176e7de4) />
 
 
-# 8. API 명세서
+# 9. API 명세서
 
-# 9. Mood Holic 배포문서
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/55505a91-a533-427d-bd90-8ec3700420ed)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/de8d83ff-5a5f-4db5-8286-9c26fa03362e)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/4237f314-89e5-4201-bf3d-01f13fb19147)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/69fef2a4-61bb-4a05-a689-42a162c85b11)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/e5775913-aea7-4c08-b470-af949459292b)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/ba14361e-9af2-4852-84d7-47815867f00e)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/414158fa-67f8-48a6-bad2-54a5589f6182)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/1eea62c5-0e4a-4163-8105-cefc9040179a)
+![image](https://github.com/Bodrami/Practice_Template/assets/149561287/165bb337-6681-4594-8738-4842d89bf8ac)
+
+
+# 10. Mood Holic 배포문서
 
 <details>
 <summary>Build 및 배포 문서</summary>
 <div markdown="1">
 
-![002](https://github.com/Bodrami/Practice_Template/assets/149561287/7a43aff1-7244-44a5-9d58-64348725182b)
+![002](https://github.com/Bodrami/Practice_Template/assets/149561287/f5aba2be-a183-484a-b3cd-f57437269f74)
 
+![003](https://github.com/Bodrami/Practice_Template/assets/149561287/24cb0dd5-2e02-46bb-b660-10bb60a5e9e5)
+
+![004](https://github.com/Bodrami/Practice_Template/assets/149561287/e8259811-97b3-4b5f-9046-28634dc7a212)
+
+![005](https://github.com/Bodrami/Practice_Template/assets/149561287/849c7ce9-5cea-409c-913e-ba4e24a6c341)
+
+![006](https://github.com/Bodrami/Practice_Template/assets/149561287/e595a949-abe4-46f4-9b26-5a49a48fd956)
+
+![007](https://github.com/Bodrami/Practice_Template/assets/149561287/54443273-cfdd-45b1-8c73-6152f573c394)
+
+![008](https://github.com/Bodrami/Practice_Template/assets/149561287/db3fdba2-2993-41e2-8425-bd193bcff73f)
+
+![009](https://github.com/Bodrami/Practice_Template/assets/149561287/867f6210-a8be-4c8c-9fc3-70b0c8ab36d1)
+
+![010](https://github.com/Bodrami/Practice_Template/assets/149561287/b2dbf151-c30b-4a04-8f07-ef81401b5f7e)
+
+![011](https://github.com/Bodrami/Practice_Template/assets/149561287/a7894a31-656a-475b-8d66-8a0337634b78)
+
+![012](https://github.com/Bodrami/Practice_Template/assets/149561287/63a22fd3-2bc3-495d-9437-5c98ba4ed2ab)
+
+![013](https://github.com/Bodrami/Practice_Template/assets/149561287/ab1f5b0a-9e26-4ebc-b63e-1842b7106a3c)
+
+![014](https://github.com/Bodrami/Practice_Template/assets/149561287/111cf134-9c9b-4b7a-8fbf-42ce20a43a0d)
+
+![015](https://github.com/Bodrami/Practice_Template/assets/149561287/2cd8d404-d8e1-4fb9-8dd3-06f689706f15)
+
+![016](https://github.com/Bodrami/Practice_Template/assets/149561287/087d4224-4899-41aa-bb2f-6765482f7f1f)
+
+![017](https://github.com/Bodrami/Practice_Template/assets/149561287/e79c46f0-d9f0-4299-9c66-571ae115b27e)
+
+![018](https://github.com/Bodrami/Practice_Template/assets/149561287/0105f573-7f4c-453f-a33d-856e7a3cb607)
+
+![019](https://github.com/Bodrami/Practice_Template/assets/149561287/d78ed86f-674b-4528-becd-e25a8534d153)
+
+![020](https://github.com/Bodrami/Practice_Template/assets/149561287/04ea2ac9-a63d-47ee-9e18-c48196e4ab38)
 
 </div>
 </datails>
 
-# 9. Test Case
+# 11. Test Case
 
-# 10. Acatsuki's 회고
+# 12. Acatsuki's 회고
 
 |:--------:|:------:|
 | **이름**   | **회고** |
