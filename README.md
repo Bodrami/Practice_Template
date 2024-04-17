@@ -219,24 +219,19 @@
 
 # 5. DB Modeling (ERD, DDD, DDL, DML)
 
-<div align="center">
 <h2>🗂️ ERD</h2>
 	
 ![ERD](https://github.com/Bodrami/Practice_Template/assets/149561287/6484caa0-d971-4916-a3ce-e25ac9415492)
-</div>
 </br>
 
-<div align="center">
 <h2>🗂️ DDD</h2>
 
 ![image](https://github.com/Bodrami/Practice_Template/assets/149561287/1058f95c-04fc-4181-ad25-a2f4adb7a7e0)
-</div>
 </br>
 
-### 🗂️ DDL
+<h2>🗂️ DDL</h2>
 <details>
 <summary>DDL 구문</summary>
-<div markdown="1">
 	
 ```sql
 DROP DATABASE IF EXISTS moodholic;
@@ -385,13 +380,12 @@ ALTER TABLE `comment`
 ADD CONSTRAINT `fk_diary_id5` FOREIGN KEY (`diary_id`)
 REFERENCES `diary`(`diary_id`);
 ```
-</div>
-</details>
+</details></br>
 
-### 🗂️ DML
+
+<h2>🗂️ DML</h2>
 <details>
 <summary>DML 구문</summary>
-<div markdown="1">
 	
 ```sql
 INSERT
@@ -525,10 +519,9 @@ VALUES
 		 )
 		 ;
 ```
-</div>
-</datails>
-</br>
 
+</details>
+</br>
 
 # 6. 요구사항
 
@@ -559,7 +552,6 @@ VALUES
 
 <details>
 <summary>Build 및 배포 문서</summary>
-<div markdown="1">
 
 ![002](https://github.com/Bodrami/Practice_Template/assets/149561287/f5aba2be-a183-484a-b3cd-f57437269f74)
 
@@ -599,7 +591,6 @@ VALUES
 
 ![020](https://github.com/Bodrami/Practice_Template/assets/149561287/04ea2ac9-a63d-47ee-9e18-c48196e4ab38)
 
-</div>
 </datails>
 
 # 11. Test Case
